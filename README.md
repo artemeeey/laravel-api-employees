@@ -12,3 +12,7 @@
 
 # 5 шаг
 <code>php artisan db:seed</code> - создает 100 фейковых сотрудников
+
+# Документация API
+
+<code>Insomnia_API.json</code> - файл Insomnia с документацией API , готовый к использованию в Insomnia
