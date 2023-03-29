@@ -1,11 +1,11 @@
 # 1 шаг
-./vendor/bin/sail up -d
+<code>./vendor/bin/sail up -d</code> - разворачиваем проект
 
 # 2 шаг
-docker exec -it laravel-api-laravel.test-1 sh
+<code>docker exec -it laravel-api-laravel.test-1 sh</code> - заходим в контейнер
 
 # 3 шаг
-php artisan migrate
+<code>php artisan migrate</code> - выполняем миграцию БД
 
 # 4 шаг
-php artisan db:seed
+<code>php artisan db:seed</code> - создает 100 фейковых сотрудников
